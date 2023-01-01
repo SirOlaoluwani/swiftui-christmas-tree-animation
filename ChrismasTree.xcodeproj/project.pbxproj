@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79BA2C5A2961D4B600FF8E17 /* ChrismasTreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA2C592961D4B600FF8E17 /* ChrismasTreeApp.swift */; };
+		79BA2C5C2961D4B600FF8E17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA2C5B2961D4B600FF8E17 /* ContentView.swift */; };
+		79BA2C5E2961D4B800FF8E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BA2C5D2961D4B800FF8E17 /* Assets.xcassets */; };
+		79BA2C622961D4B800FF8E17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BA2C612961D4B800FF8E17 /* Preview Assets.xcassets */; };
+		79BA2C6C2961D4B800FF8E17 /* ChrismasTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA2C6B2961D4B800FF8E17 /* ChrismasTreeTests.swift */; };
+		79BA2C762961D4B800FF8E17 /* ChrismasTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA2C752961D4B800FF8E17 /* ChrismasTreeUITests.swift */; };
+		79BA2C782961D4B800FF8E17 /* ChrismasTreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA2C772961D4B800FF8E17 /* ChrismasTreeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79BA2C682961D4B800FF8E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79BA2C4E2961D4B600FF8E17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79BA2C552961D4B600FF8E17;
+			remoteInfo = ChrismasTree;
+		};
+		79BA2C722961D4B800FF8E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79BA2C4E2961D4B600FF8E17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79BA2C552961D4B600FF8E17;
+			remoteInfo = ChrismasTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79BA2C562961D4B600FF8E17 /* ChrismasTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChrismasTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BA2C592961D4B600FF8E17 /* ChrismasTreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChrismasTreeApp.swift; sourceTree = "<group>"; };
+		79BA2C5B2961D4B600FF8E17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79BA2C5D2961D4B800FF8E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79BA2C5F2961D4B800FF8E17 /* ChrismasTree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChrismasTree.entitlements; sourceTree = "<group>"; };
+		79BA2C612961D4B800FF8E17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79BA2C672961D4B800FF8E17 /* ChrismasTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChrismasTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BA2C6B2961D4B800FF8E17 /* ChrismasTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChrismasTreeTests.swift; sourceTree = "<group>"; };
+		79BA2C712961D4B800FF8E17 /* ChrismasTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChrismasTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BA2C752961D4B800FF8E17 /* ChrismasTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChrismasTreeUITests.swift; sourceTree = "<group>"; };
+		79BA2C772961D4B800FF8E17 /* ChrismasTreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChrismasTreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79BA2C532961D4B600FF8E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BA2C642961D4B800FF8E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BA2C6E2961D4B800FF8E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79BA2C4D2961D4B600FF8E17 = {
+			isa = PBXGroup;
+			children = (
+				79BA2C582961D4B600FF8E17 /* ChrismasTree */,
+				79BA2C6A2961D4B800FF8E17 /* ChrismasTreeTests */,
+				79BA2C742961D4B800FF8E17 /* ChrismasTreeUITests */,
+				79BA2C572961D4B600FF8E17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79BA2C572961D4B600FF8E17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79BA2C562961D4B600FF8E17 /* ChrismasTree.app */,
+				79BA2C672961D4B800FF8E17 /* ChrismasTreeTests.xctest */,
+				79BA2C712961D4B800FF8E17 /* ChrismasTreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79BA2C582961D4B600FF8E17 /* ChrismasTree */ = {
+			isa = PBXGroup;
+			children = (
+				79BA2C592961D4B600FF8E17 /* ChrismasTreeApp.swift */,
+				79BA2C5B2961D4B600FF8E17 /* ContentView.swift */,
+				79BA2C5D2961D4B800FF8E17 /* Assets.xcassets */,
+				79BA2C5F2961D4B800FF8E17 /* ChrismasTree.entitlements */,
+				79BA2C602961D4B800FF8E17 /* Preview Content */,
+			);
+			path = ChrismasTree;
+			sourceTree = "<group>";
+		};
+		79BA2C602961D4B800FF8E17 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79BA2C612961D4B800FF8E17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79BA2C6A2961D4B800FF8E17 /* ChrismasTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				79BA2C6B2961D4B800FF8E17 /* ChrismasTreeTests.swift */,
+			);
+			path = ChrismasTreeTests;
+			sourceTree = "<group>";
+		};
+		79BA2C742961D4B800FF8E17 /* ChrismasTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79BA2C752961D4B800FF8E17 /* ChrismasTreeUITests.swift */,
+				79BA2C772961D4B800FF8E17 /* ChrismasTreeUITestsLaunchTests.swift */,
+			);
+			path = ChrismasTreeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79BA2C552961D4B600FF8E17 /* ChrismasTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BA2C7B2961D4B800FF8E17 /* Build configuration list for PBXNativeTarget "ChrismasTree" */;
+			buildPhases = (
+				79BA2C522961D4B600FF8E17 /* Sources */,
+				79BA2C532961D4B600FF8E17 /* Frameworks */,
+				79BA2C542961D4B600FF8E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChrismasTree;
+			productName = ChrismasTree;
+			productReference = 79BA2C562961D4B600FF8E17 /* ChrismasTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79BA2C662961D4B800FF8E17 /* ChrismasTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BA2C7E2961D4B800FF8E17 /* Build configuration list for PBXNativeTarget "ChrismasTreeTests" */;
+			buildPhases = (
+				79BA2C632961D4B800FF8E17 /* Sources */,
+				79BA2C642961D4B800FF8E17 /* Frameworks */,
+				79BA2C652961D4B800FF8E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79BA2C692961D4B800FF8E17 /* PBXTargetDependency */,
+			);
+			name = ChrismasTreeTests;
+			productName = ChrismasTreeTests;
+			productReference = 79BA2C672961D4B800FF8E17 /* ChrismasTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79BA2C702961D4B800FF8E17 /* ChrismasTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BA2C812961D4B800FF8E17 /* Build configuration list for PBXNativeTarget "ChrismasTreeUITests" */;
+			buildPhases = (
+				79BA2C6D2961D4B800FF8E17 /* Sources */,
+				79BA2C6E2961D4B800FF8E17 /* Frameworks */,
+				79BA2C6F2961D4B800FF8E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79BA2C732961D4B800FF8E17 /* PBXTargetDependency */,
+			);
+			name = ChrismasTreeUITests;
+			productName = ChrismasTreeUITests;
+			productReference = 79BA2C712961D4B800FF8E17 /* ChrismasTreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79BA2C4E2961D4B600FF8E17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					79BA2C552961D4B600FF8E17 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					79BA2C662961D4B800FF8E17 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 79BA2C552961D4B600FF8E17;
+					};
+					79BA2C702961D4B800FF8E17 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 79BA2C552961D4B600FF8E17;
+					};
+				};
+			};
+			buildConfigurationList = 79BA2C512961D4B600FF8E17 /* Build configuration list for PBXProject "ChrismasTree" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79BA2C4D2961D4B600FF8E17;
+			productRefGroup = 79BA2C572961D4B600FF8E17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79BA2C552961D4B600FF8E17 /* ChrismasTree */,
+				79BA2C662961D4B800FF8E17 /* ChrismasTreeTests */,
+				79BA2C702961D4B800FF8E17 /* ChrismasTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79BA2C542961D4B600FF8E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BA2C622961D4B800FF8E17 /* Preview Assets.xcassets in Resources */,
+				79BA2C5E2961D4B800FF8E17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BA2C652961D4B800FF8E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BA2C6F2961D4B800FF8E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79BA2C522961D4B600FF8E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BA2C5C2961D4B600FF8E17 /* ContentView.swift in Sources */,
+				79BA2C5A2961D4B600FF8E17 /* ChrismasTreeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BA2C632961D4B800FF8E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BA2C6C2961D4B800FF8E17 /* ChrismasTreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BA2C6D2961D4B800FF8E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BA2C782961D4B800FF8E17 /* ChrismasTreeUITestsLaunchTests.swift in Sources */,
+				79BA2C762961D4B800FF8E17 /* ChrismasTreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79BA2C692961D4B800FF8E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79BA2C552961D4B600FF8E17 /* ChrismasTree */;
+			targetProxy = 79BA2C682961D4B800FF8E17 /* PBXContainerItemProxy */;
+		};
+		79BA2C732961D4B800FF8E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79BA2C552961D4B600FF8E17 /* ChrismasTree */;
+			targetProxy = 79BA2C722961D4B800FF8E17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79BA2C792961D4B800FF8E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79BA2C7A2961D4B800FF8E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		79BA2C7C2961D4B800FF8E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChrismasTree/ChrismasTree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChrismasTree/Preview Content\"";
+				DEVELOPMENT_TEAM = UARG3THFZJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olaoluwani.ChrismasTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79BA2C7D2961D4B800FF8E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChrismasTree/ChrismasTree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChrismasTree/Preview Content\"";
+				DEVELOPMENT_TEAM = UARG3THFZJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olaoluwani.ChrismasTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79BA2C7F2961D4B800FF8E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UARG3THFZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olaoluwani.ChrismasTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChrismasTree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChrismasTree";
+			};
+			name = Debug;
+		};
+		79BA2C802961D4B800FF8E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UARG3THFZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olaoluwani.ChrismasTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChrismasTree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChrismasTree";
+			};
+			name = Release;
+		};
+		79BA2C822961D4B800FF8E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UARG3THFZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olaoluwani.ChrismasTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChrismasTree;
+			};
+			name = Debug;
+		};
+		79BA2C832961D4B800FF8E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UARG3THFZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olaoluwani.ChrismasTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChrismasTree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79BA2C512961D4B600FF8E17 /* Build configuration list for PBXProject "ChrismasTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BA2C792961D4B800FF8E17 /* Debug */,
+				79BA2C7A2961D4B800FF8E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BA2C7B2961D4B800FF8E17 /* Build configuration list for PBXNativeTarget "ChrismasTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BA2C7C2961D4B800FF8E17 /* Debug */,
+				79BA2C7D2961D4B800FF8E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BA2C7E2961D4B800FF8E17 /* Build configuration list for PBXNativeTarget "ChrismasTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BA2C7F2961D4B800FF8E17 /* Debug */,
+				79BA2C802961D4B800FF8E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BA2C812961D4B800FF8E17 /* Build configuration list for PBXNativeTarget "ChrismasTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BA2C822961D4B800FF8E17 /* Debug */,
+				79BA2C832961D4B800FF8E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79BA2C4E2961D4B600FF8E17 /* Project object */;
+}
